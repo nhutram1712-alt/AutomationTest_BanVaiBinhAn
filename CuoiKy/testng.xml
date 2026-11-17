@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Full Project Suite">
+    <test name="Regression Tests">
+        <classes>
+            <class name="testcases.DangNhapTests"/>
+            <class name="testcases.BanHangTests"/>
+            <class name="testcases.DangXuatTests"/>
+            <class name="testcases.DoiMatKhauTests"/>
+            <class name="testcases.HangHoaTests"/>
+            <class name="testcases.NhapHangTests"/>
+            <class name="testcases.KhachHangTests"/>
+            <class name="testcases.NhanVienTests"/>
+        </classes>
+    </test>
+</suite>
